@@ -11,15 +11,13 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="Style/styles.css">
-    <title>Responvise Portfolio</title>
+    <title>Web Portfolio</title>
 </head>
 <body>
     <!-- HEADER DESIGN -->
     <header class="header">
-        <a href="#" class="logo">Hiro's Portfolio</a>
-
+        <a href="#" class="logo"><span class="multiple-textTwo"></span>.</a>
         <i class="fa-solid fa-bars" id="menu-icon"></i>
-
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
@@ -33,21 +31,18 @@
         <div class="home-content">
             <h3>Hi, I'm</h3>
             <h1>Owen Santos</h1>
-            <h3>And I'm an <span>IT Student</span></h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p> I am proficient in various programming languages and technologies </p>
+            
 
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ogsantos/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Hir0su"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/ohweenn/"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="https://drive.google.com/file/d/1c7_d2YyW-LUrX4_E8hoFfUwOi-K2i9ue/view?usp=sharing" class="btn">Download CV</a>
+            <a href="#about" class="btn">Learn more</a>
         </div>
 
         <div class="home-img">
@@ -63,15 +58,11 @@
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>IT Student</h3>
 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-            <a href="#" class="btn">Read more</a>
+            <p>I'm Owen Gabriel F. Santos, a Information Technology student at Mapúa Malayan Colleges Laguna. 
+                I have a passion for technology and innovation, showcased in projects like "Hey Whizzy," an interactive kiosk for school information,
+                and AutoChart, an Excel automation tool. I’ve held leadership roles, such as Vice President of the MMCL-CCIS Student Council, and gained professional
+                 experience at Amkor Technology Philippines. Outside of academics, I enjoy gaming, technology, basketball, and European football.</p>
         </div>
      </section>
 
@@ -127,6 +118,24 @@
 
 
 
+      <!-- PRACTICUM SECTION DESIGN -->
+      <section class="ojt" id="ojt">
+        <h2 class="heading">All about my <span>Pracitcum</span></h2>
+
+        <div class="ojt-container">
+            <div class="ojt-box">
+                <img src="img/ojt1.jpg" alt="">
+                <div class="ojt-layer">
+                    <h4>AutoChart</h4>
+                    <p>Description Here</p>
+                </div>
+            </div>
+
+        </div>
+       </section>
+
+
+
       <!-- CERTIFICATIONS SECTION DESIGN -->
       <section class="certi" id="certi">
         <h2 class="heading">All of my <span>Certifications</span></h2>
@@ -137,7 +146,6 @@
                 <div class="certi-layer">
                     <h4>NSE 1 Certification</h4>
                     <p>Issued Feb 2023 · Expires Feb 2025</p>
-                    <i class="fa-solid fa-certificate"></i>
                 </div>
             </div>
 
@@ -148,7 +156,6 @@
                 <div class="certi-layer">
                     <h4>Certificate Two</h4>
                     <p>Short Description here</p>
-                    <i class="fa-solid fa-certificate"></i>
                 </div>
             </div>
 
@@ -166,20 +173,20 @@
             <div class="semiwork-box">
                 <img src="img/seminar1.jpg" alt="">
                 <div class="semiwork-layer">
-                    <h4>Seminar One</h4>
-                    <p>Short Description here</p>
-                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h4>Goldstone’s Webinar on AI in Education</h4>
+                    <p>The use of AI results in complex legal inquiries, especially 
+                        regarding data protection, ethics, and intellectual property.</p>
                 </div>
             </div>
 
-        
-        <div class="semiwork-container">
+
             <div class="semiwork-box">
                 <img src="img/seminar2.jpg" alt="">
                 <div class="semiwork-layer">
-                    <<h4>Workshop One</h4>
-                    <p>Short Description here</p>
-                    <i class="fa-solid fa-hammer"></i>
+                    <h4>Exploring the Legal Perspective of AI Transformation</h4>
+                    <p>AI's significance is emphasized by its use in various sectors. The legal system deals with 
+                        complex issues, such as data privacy, intellectual property, and ethical problems caused 
+                        by AI.</p>
                 </div>
             </div>
 
@@ -265,8 +272,16 @@
                 <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
             </div>
          </footer>
+        
 
-         <!-- MAIN JS -->
-    <script src="JS/main.js"></script>
+        <!-- TYPED JS -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+        <!-- SCROLL REVEAL JS -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="JS/main.js"></script>
 </body>
 </html>

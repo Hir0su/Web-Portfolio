@@ -38,4 +38,31 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-/*=========================================================== Sticky Navbar ===========================================================*/
+/*=========================================================== Scroll Reveal ===========================================================*/
+ScrollReveal({
+    distance: '80px',
+    duration: 2000,
+    delay: 200,
+});
+
+ScrollReveal().reveal('.home-content, heading', {origin: 'top'});
+ScrollReveal().reveal('.home-img, .requirements-container, ojt-box, .certi-box, .semiwork-box, .portfolio-box, .contact form', {origin: 'bottom'});
+ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
+ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
+
+/*=========================================================== Typed JS ===========================================================*/
+const typed = new Typed('.multiple-text', {
+    strings: ['IT Student', 'Software Developer', 'Web Developer', 'Streamer', 'Athlete'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
+});
+
+const typedTwo = new Typed('.multiple-textTwo', {
+    strings: ['Owen', 'Hiro', 'Gab', 'Hirosu', 'Hayro'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
+});
