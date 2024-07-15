@@ -616,6 +616,12 @@ span {
         display: block;
     }
 
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
     .home {
         flex-direction: column;
     }
