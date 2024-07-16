@@ -98,6 +98,10 @@ span {
     line-height: 1.3;
 }
 
+.home-img {
+    margin-left: 5%;
+}
+
 
 .home-img img {
     width: 30vw;
@@ -561,6 +565,9 @@ span {
     font-size: 2rem;
     color: var(--snd-bg-color);
 }
+
+
+
 
 
 .contact h2 {
