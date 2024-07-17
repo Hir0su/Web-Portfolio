@@ -60,7 +60,7 @@ const typed = new Typed('.multiple-text', {
 });
 
 const typedTwo = new Typed('.multiple-textTwo', {
-    strings: ['Owen', 'Hiro', 'Gab', 'Hirosu', 'Hayro'],
+    strings: ['Owen', 'Bowen','Gab', 'Hiro', 'Hirosu', 'Hayro'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
