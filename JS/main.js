@@ -99,15 +99,15 @@ const projectDetails = {
     },
 
     gpitch: {
-        title: "",
-        description: "",
-        github: "",
-        slides: "",
+        title: "Guess the Pitch",
+        description: "Arduino Machine Problem Project",
+        github: "https://github.com/Hir0su/Guess-the-Pitch",
+        slides: "https://docs.google.com/presentation/d/e/2PACX-1vQgBQFAvx-v-PbAPY3b5DiLI0xCQxVo2Asyq9Y8FKOqDO97U3_s0TTGa4uW0YimVgeY-rsCxAcmiWUM/embed?start=true&loop=true&delayms=2000",
     },
 
     equake: {
         title: "Earthquake Sensor",
-        description: "Arduino project",
+        description: "Arduino Machine Problem Final Project",
         github: "https://github.com/Hir0su/Earthquake-Detection",
         slides: "https://docs.google.com/presentation/d/e/2PACX-1vSomMrzdWOyNpXbTnMn5FxOeF5CGRVlHSdg3GFmwSE51y1PRcuXmhcN8XQiQfz_Bjz2-AJRVh7AaRTG/embed?start=true&loop=true&delayms=2000",
     },

@@ -605,6 +605,11 @@ span {
     margin-bottom: 4rem;
 }
 
+.affiliations h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 .affiliations-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
