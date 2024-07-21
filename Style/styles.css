@@ -337,86 +337,6 @@ span {
 }
 
 
-.ojt{
-    background: var(--snd-bg-color);
-}
-
-.ojt h2 {
-    font-size: 4rem;
-    margin-bottom: 4rem;
-}
-
-.ojt-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
-.ojt-container .ojt-box {
-    position: relative;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
-    overflow: hidden;
-    display: flex;
-}
-
-.ojt-box img {
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0.7;
-}
-
-.ojt-box:hover img {
-    transform: scale(1.1);
-}
-
-.ojt-box .ojt-layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 4rem;
-    transform: translateY(100%);
-    transition: .5s ease;
-}
-
-.ojt-box:hover .ojt-layer {
-    transform: translateY(0);
-}
-
-.ojt-layer h4 {
-    font-size: 3rem;
-}
-
-.ojt-layer p {
-    font-size: 1.6rem;
-    margin: .3rem 0 1rem;
-}
-
-.ojt-layer a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
-    border-radius: 50%;
-}
-
-.ojt-layer a i {
-    font-size: 2rem;
-    color: var(--snd-bg-color);
-}
-
-
 .certi{
     background: var(--snd-bg-color);
 }
@@ -446,9 +366,9 @@ span {
 .certi-box img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     transition: .5s ease;
     opacity: 0.7;
-    object-fit: cover;
 }
 
 .certi-box:hover img {
@@ -470,6 +390,8 @@ span {
     padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
+    overflow-y: auto;
+    padding: 2rem;
 }
 
 .certi-box:hover .certi-layer {
@@ -530,9 +452,10 @@ span {
 .semiwork-box img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     transition: .5s ease;
     opacity: 0.7;
-    object-fit: cover;
+    
 }
 
 .semiwork-box:hover img {
@@ -554,6 +477,8 @@ span {
     padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
+    overflow-y: auto;
+    padding: 2rem;
 }
 
 .semiwork-box:hover .semiwork-layer {
