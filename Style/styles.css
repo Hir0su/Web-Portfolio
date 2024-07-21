@@ -688,7 +688,7 @@ span {
         padding: 10rem 3%;
     }
 
-    .services {
+    .skills {
         padding: 7rem;
     }
 
@@ -762,7 +762,7 @@ span {
         margin-top: 4rem;
     }
 
-    .services h2 {
+    .skills h2 {
         margin-bottom: 3rem;
     }
 
@@ -777,6 +777,18 @@ span {
 
 @media (max-width: 617px) {
     .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    .certi-container {
+        grid-template-columns: 1fr;
+    }
+
+    .semiwork-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-container {
         grid-template-columns: 1fr;
     }
 
